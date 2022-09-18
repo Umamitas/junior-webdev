@@ -1,0 +1,22 @@
+<html>
+    <body>
+<pre>
+        Si realizzi il sito internet per lo studio dentistico "15:59 15/09/2022". 
+
+        Il sito internet dovra' avere la seguente struttura:
+
+            Home Page
+            Pagina dei servizi svolti (Protesi, fissa e mobile, Implantologia, Ortodonzia, fissa, mobile ed invisibile, Endodonzia, Conservativa, Igiene e Sbiancamento, Chirurgia, Parodontologia, Gnatologia con trattamento Atm e cefalee, Prevenzione)
+            Pagina dei contatti, con mappa di Google e form (contente i campi nome,cognome,email e pulsante di invio)
+            Pagina Storia, con la storia dello studio
+            Pagina Chi Siamo (inserisci un video da YouTube oppure da Vimeo)
+
+        Si utilizzino le immagine fornite, e del testo segnaposto per i testi.
+
+        Per i servizi, reperisci immagini a tua scelta su banche dati di immagini gratuite )pixabay, freepik, pexels, etc)
+        
+        Infine, utilizza il font "Bloomsburg" (già fornito) per il sito
+        Buon lavoro!
+</pre>
+</body>
+</html>

@@ -1,0 +1,125 @@
+/* PER POSSIBILE FONT AGGIUNTIVO*/ 
+@font-face {
+    font-family: "Metropolis";
+    src: url('../font/Metropolis-Thin.otf');
+}
+
+header{
+    text-align: center;
+    background-color:#a9a9a9;
+    padding: 50px;
+
+}
+header>img{
+    width: 10%;
+}
+main{
+    text-align: center;
+}
+main section:nth-of-type(1){
+    width: 100%;
+    height: 100%;
+    padding: 20px; 
+    background-image: url('../images/banner.jpg');
+    background-size:cover;
+    /*box-sizing: border-box;*/
+    padding-bottom: 200px;
+    margin-top: 0%;
+}
+
+.linea{
+    border-top: 1px solid white;
+    padding-top: 30px;
+
+    
+}
+main p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+section>h1{
+    font-family: "Metropolis";
+    color: #26a2c3;
+    font-size: 80px;
+}
+section{
+    background-color: white;
+    margin-top: 40px;
+}
+
+
+button{
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-right: 200px;
+    padding-left:200px;
+    background-color: red;
+    border-radius: 5%;
+    color: white;
+    font-size: 20px;
+}
+h2{
+    font-family: "Metropolis";
+    font-size: 40px;
+    color: #26a2c3;
+}
+.tondo{
+    border-radius: 50%;
+}
+article{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+article h1{
+    font-size: 60px;
+}
+article blockquote{
+    font-size: 20px;
+}
+.container {
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+}
+footer{
+    text-align: center;
+    background-color:#26a2c3;
+    color: white;
+    padding: 20px;
+}
+footer>h1{
+    font-family: "Metropolis";
+    color: white;
+    font-size: 80px;
+}
+span{
+    color: red;
+    font-size: 20px;
+}
+li{
+    list-style-type: none;
+}
+
+a:link{
+    text-decoration: none;
+    color:white;
+}
+a:visited{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color:yellow;
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+    color:brown;
+}
+

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../font/Raleway.ttf');
+}
+
+* {
+    font-family: 'Raleway';
+}
+
+head {
+
+}
+
+body {
+    background-color: blanchedalmond;
+    color: coral;
+}
+
+header {}
+
+main {
+    border-left: 3px dotted orangered;
+    
+}
+div{
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(138, 251, 168);
+}
+p{
+    text-align: center;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top:0%;
+    margin-bottom: 10%;
+    color: grey;
+    background-color: whitesmoke;
+}
+
+a:link {
+    color: brown;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:lightslategray;
+    color: white;
+   
+}
+
+a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+.immagine-servizio{
+    width: 30%;
+}
+.immagine-capo{
+    width: 15;
+}
+.immagine-adattiva{
+    width: 80%;
+}
+
+footer {}
+
+h1 {
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 0%;
+}
+form{
+    background-color: whitesmoke;
+}
+blockquote{
+    background-color: white;
+    text-align: right;
+}
+span{
+    background-color: white;
+    color: darkslategrey;
+}

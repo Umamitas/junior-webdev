@@ -1,0 +1,3 @@
+L'esercizio riprende il file realizzato il primo giorno per applicare i primi concetti di CSS.
+Il markup originale andrà ritoccato ed integrato con alcuni elementi contenitori per permettere una migliore e più agevole selezione degli elementi. In questo modo la formattazione tramite CSS sarà più semplice e richiederà meno codice.
+Andrà ricreato, per quanto possibile, ogni dettaglio (spazi, colori, grandezze, allineamenti) presente nel semplice modello grafico "layout-grafico.png". Ricorda di aggiungere la fotografia del titolare del CV!

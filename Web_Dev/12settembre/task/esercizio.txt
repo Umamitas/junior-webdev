@@ -1,0 +1,68 @@
+L'esercizio prevede l'applicazione dei primi tag imparati, in modo da formattare il seguente testo in modo idoneo a preparare il markup per una pagina "Chi sono" o "Profilo", tipica dei siti personali.
+E' preferibile prima associare su carta ogni tag da applicare al relativo contenuto e poi passare alla scrittura via editor.
+
+Opzionale: dopo aver terminato l'esercizio, crea una pagina "Curriculum vitae" relativa a te.
+
+
+
+###
+Titolo pagina: Il mio curriculum vitae - Chi sono
+###
+
+###
+Descrizione pagina: Il mio curriculum: profilo, competenze ed esperienze maturate ad oggi in ambito professionale
+###
+
+###
+Contenuti pagina: 
+
+Curriculum vitae - Mario Rossi
+Web developer & programmatore
+
+Info personali
+Nome: Mario
+Cognome: Rossi
+Data di nascita: 22-10-1983
+
+### INSERISCI UNA IMMAGINE DI "Mario Rossi" - Puoi usare Google per trovare una foto di un ipotetico Mario Rossi
+
+Su di me:
+"Sembra sempre impossibile, finché non viene fatto".
+(Nelson Mandela)
+
+Presentazione
+Lavoro come consulente e formatore in qualità di libero professionista secondo il motto "Fai della tua passione un lavoro e non lavorerai nemmeno per 1 giorno". Collabora con strutture pubbliche e private trattando il tema del riconoscimento, valutazione e certificazione delle competenze professionali, sia come docente in percorsi per esperti di certificazione, sia come consulente per agenzie formative accreditate, Regioni, Province.
+
+Formazione
+Diploma scientifico
+Conseguito nel 2001 con votazione 100/100 presso l'istituto Righi
+
+Master Web Deploy
+Conseguito nel 2006 presso l'academy W3point.
+Riconosciuto in via ufficiale per crediti formativi.
+
+Competenze
+Conoscenze tecniche
+Le conoscenze nel mio bagaglio tecnico sono le seguenti:
+
+HTML
+CSS
+Javascript/Typescript
+Angular.js
+
+Conoscenze operative
+Sviluppo web
+  Dal PSD all'HTML, sviluppo di template per CMS
+Ottimizzazione CSS
+  Pulizia di codice inusato, minify e verifica compatibilità
+
+Contatti personali
+Email: contatti@webdev.it
+Telefono: 338-10203040
+
+PEC: mariorossi@pec.it
+
+Autorizzo il trattamento dati secondo il decreto vigente
+
+Copyright ©2022 - Tutti i diritti riservati
+###

@@ -1,0 +1,37 @@
+a{
+    color:chocolate
+}
+main>div{ /*figli > immediatamente sotto */
+    /*SINTASSI= SELETTORE > SELETTORE*/
+    background-color: chocolate;
+}
+main>div>div{
+    background-color: yellow;
+}
+/* COLORA I RIFERIMENTI <A HREF></A>*/
+.menu-principale{
+    color: green;
+}
+.menu-secondario{
+    color: brown;
+}
+/*SELEZIONA TUTTI I TAG "A" DISCENDENTI DAL TAG "HEADER"*/
+/*SINTASSI= SELETTORE &nsbp SELETTORE*/
+header a{ 
+    color: green;
+}
+/*TUTTI I DISCENDENTI DI FOOTER E SOLO LORO AVRANNO IL COLORE MARRONE*/
+footer a{
+    color:blueviolet;
+}
+nav li{
+    list-style-type: none;
+}
+.decorazione{
+    color: black;
+}
+/* PER DECORARE SOLO GLI ELEMENTI ALL'INTERNO DELLA CLASSE DECORAZIONE IN UNA LISTA DI OGGETTI (discendente li) */
+li .decorazione{
+    color:red;
+} /* GENERALMENTE si punta a ridurre il numero di classi all'interno del foglio di stile*/
+

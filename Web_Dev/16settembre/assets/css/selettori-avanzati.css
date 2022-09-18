@@ -1,0 +1,50 @@
+article{
+    border-bottom: 5px solid green;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+main>article{
+    background-color: brown;
+    color: whitesmoke;
+    
+}
+main article:nth-of-type(2) { 
+    /* 
+    PSEUDO CLASSE:border:
+    :nth-of-type(numero)
+    :first-of-type (il primo di quel tipo)
+    :last-of-type (l'ultimo di quel tipo)
+    */
+    background-color: green;
+    color: black;
+    text-align: center;
+    font-size:20px;
+}
+/*IL NUMERO (2) DEL TIPO ARTICLE DISCENDENTE DI MAIN*/
+main article:nth-of-type(4){
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size:18px;
+}
+/* NUMERO 4 DEL TIPO ARTICOLO DISCENDENTE DAL MAIN*/
+main article:last-of-type{
+    background-color: burlywood;
+    color: darkred;
+}
+/*MODIFICA ULTIMO ELEMENTO DEL TIPO ARTICLE*/
+.in-evidenza{
+    color: beige;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+}
+/*SELEZIONA ELEMENTI PARI E DISPARI*/
+main section:nth-of-type(odd){ /*pari blueviolet*/
+    background-color: blueviolet;
+}
+main section:nth-of-type(even){ /*dispari dark blue*/
+    background-color: darkblue;
+}

@@ -1,0 +1,29 @@
+grafica e web
+
+1) Grafica Bitmap (raster) non ha bisogno di un computer potente, giusto la memoria.
+    - gimp.org (gratuito)
+    - photoshop (a pagamento)
+
+    formati grafici
+    .jpeg = compresso e distruttivo
+            16M di colori 
+            no trasparenza
+    .png = compresso e non distruttivo 
+            16M di colori
+            trasparenza (canale Alfa)
+            (png-8 :256 colori & non supporta animazioni)
+    .gif = supporta animazioni (GIF 89A) <--- 1989
+            256 colori (no qualità fotografica <- 16M di colori)
+            si usa x elementi grafici (non fotografici)
+    .psd = formato usato solo per la lavorazione in photoshop e non per la pubblicazione 
+
+2) Grafica Vettoriale -richiedono + CPU
+    caratteristica di base, non sgrana, non perde qualità perché ogni volta che aumentiamo o riduciamo lo zoom l'immagine viene ridisegnata ogni volta.
+    non ha qualità grafica 
+    utilizzata per elementi grafici (e non fotografici) 
+    .svg (Scalable Vector Graphics) = formato ufficiale del web, formato che salva le immagini in modo che possano essere allargate o rimpicciolite, senza perdere qualità. 
+
+        utilizzata principalmente per i loghi perché possono essere sia molto piccoli che molto grandi (da timbri a cartelloni)
+
+risoluzione : per risoluzione si intende il rapporto tra pixel in larghezza x pixel in altezza (e.g.1980x1080)
+

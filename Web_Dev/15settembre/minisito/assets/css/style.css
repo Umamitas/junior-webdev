@@ -1,0 +1,83 @@
+@font-face { /* direttiva chiocciola per implementare il nuovo font al nostro sito*/
+    font-family:"pinkponk" ;
+    src: url('../fonts/pinkponk.ttf');
+}
+/* 
+    Il formato .ttf = true type font (creato da Apple e Microsoft)   compatibile 99% web
+    
+    Il formato .otf = open type font (ttf avanzato)     compatibile 99% web
+    
+    Il formato .eot (microsoft) compatibilità non così estesa, non ufficiale
+
+    Il formato .woff = ttf/otf (mozilla microsoft opera)    formato ufficiale per il web
+
+    Il formato .woff2 = versione aggiornata dal woff    formato ufficiale
+
+    Il formato .svg = simple vector graphic (w3c)   formato ufficiale
+
+    SITI INTERNET UTILI = 
+    -FONTSQUIRREL: (identificatore di font ottimo per trovare font di cui si ignora il nome)
+    -1001 FONTS: catalogo di fonts
+*/ 
+@font-face {
+    font-family: 'neon';
+    src: url('../fonts/neon.ttf');
+}
+/*
+TAG
+*/
+*{ /* se presente il TAG UNIVERSALE va in cima a tutti gli altri in CSS*/
+font-family: "pinkponk";
+}
+body{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+header{
+border-bottom: 5px solid red;
+}
+
+main{
+
+}
+
+footer{
+border-top: 2px solid white;
+background-color: black;
+}
+
+article{
+font-size: 40px;
+font-family: 'neon';
+}
+
+a:link{
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:yellow;
+    text-decoration: none;
+}
+a:active{
+    color:brown;
+}
+
+ul{ /*TOLGO I PALLINI DAL MENU DI TUTTE LE PAGINE HTML */
+    list-style-type: none;
+}
+/*
+CLASSI
+*/
+.immagine-adattiva{ /*serve a ridefinire la grandezza dell'immagine, sarà grande il valore dello schermo diviso in percentuale*/ 
+width: 100%;
+}
+.testo-centrato{
+    text-align: center;
+}
+/*
+ID
+*/

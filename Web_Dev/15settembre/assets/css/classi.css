@@ -1,0 +1,85 @@
+/*
+SELETTORE {
+    proprietà : valore;
+    proprietà N : valore
+}
+
+selettori: 
+1) TAG
+2) CLASSI = selettori di stile personalizzati ( NON TAG) che possono essere utilizzati PIU' VOLTE nella stessa pagina
+3) ID =  selettori di stile personalizzati ( NON TAG) che possono essere utilizzati SOLO UNA VOLA nella stessa pagina
+*/
+/*
+PSEUDO-CLASSI a:link a:visited a:hover a:active
+*/
+
+a:link {
+    /* E' ATTIVO PER I LINK*/
+    background-color: cyan;
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    /* SI ATTIVA DOPO AVER CLICCATO IL LINK */
+    background-color: cyan;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    /* QUANDO PASSO IL CURSORE SOPRA SI ATTIVA L'EFFETTO */
+    text-decoration: underline;
+    background-color: blue;
+    color: white;
+    /* serve ad aggiungere elementi grafici / underline mostra sottolineatura dei link quando passiamo il cursore sopra*/
+}
+
+a:active {
+    /* QUANDO CLICCO SI ATTIVA L'EFFETTO */
+    background-color: cyan;
+    color: red;
+    text-decoration: none;
+}
+
+.voce-menu {
+    list-style-type: none;
+    /* 
+    stile degli elementi della lista = indica lo stile relativo agli elementi grafici associati alla lista
+    */
+}
+.nome{
+    color: blue;
+}
+
+/* 
+
+CLASSI  CSS sintassi .identificativo (.verde,.rosso, etc.) 
+
+*/
+.verde {
+    /*SELETTORE (NO SPACE)*/
+    color: green;
+}
+
+.rosso {
+    color: red;
+}
+
+.testo-centrato {
+    text-align: center;
+}
+
+.carattere-standard {
+    font-size: 24px;
+}
+
+/*
+ID CSS
+sintassi: #identificativo
+
+*/
+#password {
+    background-color: black;
+    color: green;
+}

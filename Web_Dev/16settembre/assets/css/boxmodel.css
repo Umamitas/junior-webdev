@@ -1,0 +1,48 @@
+div {
+    background-color: blueviolet;
+    /*          PROPRIETA' BASE DEL BOX-MODEL*/
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    /*
+     IL PADDING E' LO SPAZIO TRA IL CONTENUTO ED IL BORDO
+     Padding (tutte e quattro, sotto, sopra, destra, sinistra)
+     padding-top (aggiunge/toglie spazio sopra l'elemento)
+     padding-bottom (aggiunge/toglie spazio sotto l'elemento)
+     padding-right (aggiunge/toglie spazio a destra elemento)
+     padding-left (aggiunge/toglie spazio a sinsitra elemento)
+    */
+    border: 10px solid red;
+    margin: 50px;;
+    
+    /* */
+    border-radius: 30%; /*PER ARROTONDARE GLI ANGOLI*/
+
+
+    box-sizing: border-box;
+
+    /*
+    LA PROPRIETA' BOX-SIZING  DETERMINA COME VENGONO CALCOLATE LE DIMENSIONI FINALE DI UN BOX (contenuti)
+    
+    Default vale che boxsizing è content-box
+    Ovvero le dimensioni finali sono date da (ad esempio)
+
+    E.G. SENZA border-box SPAZIO INTERNO 200x200 + padding(20 sopra + 20 sotto / 20 destra + 20 sinistra) 240x240 -> 
+    CON border-box = SPAZIO INTERNO 160x160 + padding (20 sopra + 20 sotto / 20 destra + 20 sinistra)
+
+    Con valore border-box le dimensioni sono quelle INDICATE DA NOI ed il browser adatta lo spazio interno, riducendolo. Il padding resta invariato.
+    */
+    background-image: url('../img/logo\ w.png');
+    background-size: cover;
+}
+section{
+    background-color: blue;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+div:hover{
+    background-image: url('../../../13settembre/task/assets/img/logo.png');
+    background-size: cover;
+}

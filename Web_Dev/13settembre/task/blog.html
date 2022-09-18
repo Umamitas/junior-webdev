@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sviluppo di una pagina Web - Blog Develop</title>
+    <!-- Titolo pagina: Sviluppo di una pagina web - Blog Develop -->
+    <meta name="description"
+        content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile." />
+    <!--Descrizione pagina: Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile-->
+</head>
+
+<body>
+    <!-- HEADER-->
+    <header>
+        <img src="./assets/img/logo.png" alt="logo blog" />
+        <h1>WebDev - Il blog dei developers</h1>
+        <!--Logo (nella cartella assets/images/)
+                WebDev - Il blog dei developers-->
+        <nav>
+            <table>
+                <tr>
+                    <td> <a href="cancelletto"> Home </a> &nbsp;&nbsp; </td>
+                    <td> <a href="cancelletto">Articoli </a> &nbsp;&nbsp; </td>
+                    <td> <a href="cancelletto"> Lavora con noi </a> </td>
+                </tr>
+            </table>
+        </nav>
+        <!-- (inizio menù)
+                Home
+                Articoli
+                Lavora con noi
+                (fine menù)-->
+    </header>
+
+    <hr>
+    <!-- MAIN -->
+    <main>
+        <section>
+            <article>
+                <h2>Come creare un template per i post</h2>
+                <cite>di Mario Rossi - pubblicato il 25-10-2020</cite>
+                <!--(titolo post) 
+                Come creare un template per i post
+                di Mario Rossi - pubblicato il 25-10-2020-->
+
+                <p>
+                    La prima cosa da fare &egrave; suddividere in blocchi logici la pagina, separando le parti comuni a
+                    tutte le pagine da quelle specifiche.
+                </p>
+
+            </article>
+            <article>
+                <h3>Le varie aree saranno quindi suddivise in:</h3>
+                <ul>
+                    <li>Contenuti di <strong>intestazione </strong> del tag <em> &lt;header&gt;</em></li>
+                    <li>Contenuti <strong> centrali </strong> variabili del tag <em> &lt;main&gt; </em> (corpo
+                        principale)
+                    </li>
+                    <li>Contenuti di <strong> fine pagina </strong> comuni, da inserire nel tag &lt; <em> footer &gt;
+                        </em>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <h3>Formattazione del codice:</h3>
+
+                Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i
+                <abbr title="Cascading Style Sheets"> CSS</abbr>.
+                Perciò i passi saranno:
+                <ol>
+                    <li>
+                        Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato
+                    </li>
+                    <li>
+                        Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso
+                    </li>
+                    <li>
+                        Applicare gli stili CSS
+                    </li>
+                    
+                </ol>
+                <p>
+                    L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché
+                    totale
+            </p>
+            </article>
+            <article>
+                <h3>Diffusione dei CSS</h3>
+                <table border="1">
+                    <tbody>
+                        <tr>
+                            <th>Anno</th>
+                            <th>% di utilizo</th>
+                        </tr>
+                        <tr>
+                            <td>2000</td>
+                            <td>20 &percnt; </td>
+                        </tr>
+                        <tr>
+                            <td>2002</td>
+                            <td>35 &percnt;</td>
+                        </tr>
+                        <tr>
+                            <td>2004</td>
+                            <td>40 &percnt;</td>
+                        </tr>
+                        <tr>
+                            <td>2008</td>
+                            <td>80 &percnt;</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>100 &percnt;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    Un test di validazione potrà essere fatto tramite il tool online apposito
+                </p>
+            </article>
+
+        </section>
+
+        <hr>
+
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:
+                    </legend>
+                    <div>
+                        Email: <input type="email" id="indirizzo-email" name="indirizzo-email"
+                            placeholder="Inserisci la tua email" required>
+                    </div>
+                    <div>
+                        <button> <strong> Iscriviti! </strong></button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <aside>
+            <div>
+                Articoli Correlati
+            </div>
+            <table>
+                <tfoot>
+                    <tr>
+                        <th>
+                            <a href="cancelletto"> Validare il codice HTML </a> &nbsp;
+                        </th>
+                        <th>
+                            <a href="cancelletto">
+                                Correggere la sintassi </a> &nbsp;
+                        </th>
+
+                        <th>
+                            <a href="cancelletto">
+                                Meno Kb nella pagina </a> &nbsp;
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Categoria: develop</td>
+                        <td>Categoria: develop</td>
+                        <td>Categoria: ottimizzazione</td>
+                    </tr>
+                    <tr>
+                        <td>Data:18-09-2020</td>
+                        <td>Data:16-09-2020</td>
+                        <td>Data:30-09-2020</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </aside>
+
+        <hr>
+        <!-- FOOTER -->
+        <footer>
+            (Copyright &amp; info) <br>
+            Blog Develop &copy;2020 <br>
+            Testata online di Mario Rossi, registrata con n.213/2018 con sede in via Luigi Einaudi 2 - Milano. P.IVA
+            00112233. info&commat;blogdevelop.it
+        </footer>
+
+    </main>
+</body>
+
+</html>

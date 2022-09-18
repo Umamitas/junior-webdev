@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+        INIZIO INTESTAZIONE
+    -->
+
+<head>
+    <meta charset="utf-8">
+    <title>tabelle html</title>
+    <meta name="description" content="testo per SEO">
+</head>
+<!-- 
+        FINE INTESTAZIONE
+    -->
+
+<body>
+    <!--
+             TABELLE HTML
+        sono strutturate tendenzialmente righe + celle 
+        
+        REGOLE DI BASE:
+        1) Utilizzo esclusivamente i tag TD o TH (intestazione) per inserire i contenuti
+        2) Tante celle compaiono nella prima riga, altrettante devono comparire nelle successive
+    -->
+
+    <h2> Tabella base</h2>
+    <table border="1">
+        <!--TABLE genera una tabella-->
+        <!-- border di default è 0 e non viene visualizzato. ad uno è possibile vedere i contorni della tabella-->
+        <tr>
+            <!-- riga della tabella-->
+            <td>cella 1</td>
+            <!-- cella della tabella e si scrive SOLO qua il contenuto né in "<tr>" né in "<table>"-->
+            <td>cella 2</td>
+        </tr>
+        <tr>
+            <td>cella3</td>
+            <td>cella4</td>
+        </tr>
+        <tr>
+            <td>cella5</td>
+            <!-- errore inserire solo una cella alla terza riga, bisogna mantenere coerenza con le precedenti-->
+            <td></td> <!-- cella vuota-->
+        </tr>
+
+    </table>
+
+    <h2> Tabella con intestazione</h2>
+    <table border="1">
+        <tr>
+            <th>INTESTAZIONE 1</th> <!-- TH è l'header della colonna-->
+            <th>INTESTAZIONE 2</th>
+        </tr>
+        <tr>
+            <td>cella 1</td>
+            <td>cella 2</td>
+        </tr>
+        <tr>
+            <td>cella3</td>
+            <td>cella4</td>
+        </tr>
+        <tr>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reiciendis nisi error excepturi commodi in
+                aperiam totam rem sapiente perferendis libero repellendus expedita at magnam praesentium tempora, eaque
+                maxime possimus.</td>
+            <!-- errore inserire solo una cella alla terza riga, bisogna mantenere coerenza con le precedenti-->
+            <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem fugit ipsa quisquam maiores
+                eveniet ex facilis doloremque aspernatur. Ullam ex veritatis necessitatibus libero nisi illum, ipsum
+                eveniet sunt labore tenetur.</td>
+        </tr>
+
+    </table>
+
+    <h3>Esempio Tabella con intestazoni</h3>
+    <table border="1">
+        <tr>
+            <th>Voto scritto</th>
+            <th>Voto orale</th>
+        </tr>
+        <!--emmet abbr. tr*3 = genera 3 righe con tag TR-->
+        <tr>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+    </table>
+
+    <h2>Tabella strutturata con vari tag HTML</h2>
+    <table border="1">
+        <caption>
+            <!--CAPTION può essere utilizzata immediatamente dopo TABLE per visualizzare informazioni specificihe sul contenuto della tabella-->
+            Vendite negli anni
+        </caption>
+        <thead>
+            <tr>
+                <th>Anno</th>
+                <th>Copie vendute</th>
+            </tr>
+            <!--
+            tr*3>td*2 = SHORTCUT per generare 3 righe con tag <tr> ciascuna riga contiene un <td>
+        -->
+
+        </thead>
+        <!-- il comando <thead> avvolge i tag relativi all'INTESTAZIONE-->
+
+        <tbody>
+            <!--TBODY avvolge i tag relativi al CORPO della tabella-->
+            <tr>
+                <td>2020</td>
+                <td>13000</td>
+            </tr>
+
+            <tr>
+                <td>2019</td>
+                <td>9700</td>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>9950</td>
+            </tr>
+        </tbody>
+        <!-- struttura creata dalla shortcut-->
+        <tfoot>
+            <!-- TFOOT avvolge i tag del PIE PAGINA della tabella nel caso esista-->
+            <tr>
+                <td>Anni di attività </td>
+                <td>Copie vendute in Italia</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <h2>Tabella asimmettrica </h2>
+    <table border="1">
+        <tr>
+            <td>a </td>
+            <td>b </td>
+            <td>c</td>
+        </tr>
+        <tr>
+            <td colspan="3">d </td>
+            <!-- colspan permette l'unione di N celle IN LARGHEZZA (coerentemente alle altre righe sopra e sotto) nella riga per un singolo elemento -->
+        </tr>
+    </table>
+    <h2> Rowspan (unire le colonne)</h2>
+    <table border="1">
+    <tr>
+        <th>Spese </th>
+        <th>Risparmi</th>
+        <th>Soldi x vacanze</th>
+    </tr>
+    <tr>
+        <th>20</th>
+        <th>10</th>
+        <th rowspan="2"> 40</th>
+        <!-- unisce le righe differenti IN ALTEZZA-->
+    </tr>
+    <tr>
+        <th>10</th>
+        <th>30</th>
+        <!-- MEGLIO VUOTA CHE DIVERSA DALLE ALTRE RIGHE, non serve creare anomalie!-->
+    </tr>
+</table>
+
+<h2>Tabella senza contenuto</h2>
+<table border="1">
+    <!-- se ho bisogno di inserire uno spazio utilizzo lo spazio codificato in HTML-->
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+
+</body>
+
+</html>

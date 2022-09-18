@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Moduli</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <form action="./ricevi.php" method="POST">
+                <!--il form invia dati al server-->
+                <!-- i metodi indicano il modo in cui vengono archiviati i dati: GET = ricerche / POST= memorizzare informazioni -->
+
+                <!--
+                    METODO GET trasmette i dati in questa forma 
+                    url7nomeCampo=valore
+                    url7nomeCampo=valore&nomeCampo2=valore&nomeCampoN=valore
+                -->
+
+                <fieldset>
+                    <!-- genera un contorno agli elementi avvolti dal TAG-->
+                    <legend>Registrati alla nostra newsletter</legend>
+                    <!-- il tag LEGEND è utilizzato insieme al tag FIELDSET, fa apparire un testo incastonato nella cornice di FIELDSET-->
+                    <div>
+                        Nome: <input type="text" id="nome" name="nome" placeholder="inserisci come ti chiami"
+                            required />
+                        <!--
+                        casella di testo con gli attributi ID e NAME aventi lo stesso contenuto (nome)
+                    -->
+                    </div>
+                    <div>
+                        Email: <input type="email" id="indirizzo-mail" name="indirizzo-mail"
+                            placeholder="inserisci email valida" required />
+                        <!-- REQUIRED = Attributo che rende obbligatorio l'inserimento di un valore da parte dell'utente-->
+
+                        <!--
+                         l'attributo NAME verrà utilizzato dal server nella RICEZIONE dei dati. FONDAMENTALE X RICEVE I DATI
+                                NAME =  SERVER - SIDE
+
+                        L'attributo ID verrà utilizzato da JavaScript in fase di elaborazione dei dati
+                                ID = CLIENT - SIDE
+                        -->
+                    </div>
+                    <div>
+                        imposta password 
+                        <input type="password" id="pwd" name="pwd" placeholder="inserisci password">
+                    </div>
+                    <div>
+                        <button type="submit">
+                            <strong> Registrati </strong>
+                            <!-- BUTTON = pulsante funzionale (trasmette i dati) di invio-->
+                        </button>
+
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

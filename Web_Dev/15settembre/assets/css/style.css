@@ -1,0 +1,18 @@
+*{ /* SELETTORE UNIVERSALE - VALIDO PER TUTTI GLI ELEMENTI */
+    font-size: 17px;
+}
+main{
+    background-color: blue!important;
+    /*
+    proprietà:valore!important; QUESTO IMPORTANT DA' PRIORITA' ASSOLUTA A QUESTA DICHIARAZIONE 
+    */
+}
+div{
+    background-color: aqua;
+    background-color: black;
+}
+article{
+    background-color: violet;
+    color: white;
+    border-bottom: 5px solid orange;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>articolo</title>
+</head>
+
+<body>
+    <!--sezione INTESTAZIONE-->
+    <!-- 
+    per inserire un immagine:
+    VERSIONE BASE
+    1) colloco l'immagine nella stessa cartella del file html
+    2) utilizzo il TAG <img> con dentro l'attributo "src" che conterrà il nome esatto del file completo di estensione (png)
+    -->
+    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">
+        <img src="HTML5_Logo_256.png">
+        <!-- 
+            problematica del FileSystem (file nella memoria di massa)
+
+            nomi cartelle e file 
+            1) scrivere i nomi sempre in minuscolo
+            2) non inserire spazio nei nomi es. "umamitas_foto.png"
+            3) non inserisco caratteri speciali nazionali es. è, ò, ù, etc
+        -->
+    </a>
+    <hr>
+    <!--SEZIONE CONTENUTI-->
+
+    <h1>articolo su HTML</h1>
+
+    CONTENUTI
+
+    <p>
+        <!-- il comando abbr permette di inserire la versione estesa delle abbreviazioni-->
+        La versione attuale di <abbr title="Hyper Text Markup Language"> HTML </abbr> &egrave; la versione 5. <br />
+        <i>L'HTML</i> &egrave; il <em>linguaggio</em> di <strong> marcatura </strong> per i <b> documenti ipertestuali
+        </b>
+    </p>
+    <p>
+        Ultime versioni dell'HTML:
+    <ol>
+        <!-- ol = Lista ordinata -->
+        <li> 1999 -> HTML 4.01 </li> <!-- li = elemento della lista -->
+        <li> 2015 -> HTML 5.0 </li>
+        <li> 2017 -> HTML 5.1 </li>
+    </ol>
+    </p>
+    <p>
+        Dal 2015 l'HTML raccoglie i seguenti progetti:
+    <ul>
+        <!-- lista NON ordinata (puntata)-->
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    </p>
+
+    <p>
+        <!-- dl = lista di definizioni-->
+    <dl>
+        <dt>HTML </dt>
+        <!--dt = vocabolo / testo da definire-->
+        <dd>
+            <!--dd = descrizione / definizione del vocabolo-->
+            Hyper Text Markup Language
+        </dd>
+        <dt> HTTP </dt>
+        <dd> Hyper Text Tranfer Protocol </dd>
+    </dl>
+    </p>
+    <h3>
+        Autrice : Paola Rossi
+    </h3>
+    <p>
+        Il mio motto &egrave;
+    <blockquote>'Conosci te stesso'</blockquote>
+    <!-- blockquote = citazione estesa (es. testo articolo)-->
+    <cite>Socrate</cite>
+    <!--cite = citazione breve es. autore dell'articolo-->
+    <br>
+    Dati di contatto:
+    <address>
+        <!-- address = definisce un area contentente recapiti-->
+        whatsapp:
+        <!-- il sito https://faq.whatsapp.com/452366545421244/?locale=it_IT&cms_id=452366545421244&published_only=true offre una guida su come condividere il contatto 
+        -->
+        <a href="https://wa.me/390212345">
+            chat
+        </a> <br>
+        telefono:
+        <!--
+            collegamento ad un numero di telefono
+        -->
+        <a href="tel:0212345">
+            0212345 <br>
+        </a>
+        email:
+        <!-- 
+            PEC/PEO 
+            collegamento all'indirizzo di posta elettronica certificata
+        -->
+        <a href="mailto:paola.rossi@gmail.com">
+            paola.rossi@gmail.com
+        </a>
+        <br>
+        sito personale:
+        <!-- 
+            a = ancora
+            href = riferimento ipertestuale (completo di protocollo https://)
+        -->
+        <a href="http://www.whitehouse.gov" target="_blank">
+            <!-- target ="_blank" permette di far aprire un'altra scheda quando cliccano sul link, utile!-->
+            http://www.paolarossi.com
+        </a>
+        <br>
+    </address>
+    </p>
+
+    <hr> <!-- sezione PIE DI PAGINA-->
+
+    &copy;2022 / p.iva / numero registro imprese / autore sito
+    <br> PIE PAGINA
+</body>
+
+</html>

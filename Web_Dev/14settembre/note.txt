@@ -1,0 +1,28 @@
+Immagini:
+-jpg / png / gif / webp / tiff /
+
+
+video = traccia video + traccia audio
+
+video 4k o video HD indicano la risoluzione espressa in pixels in larghezza (x ogni s) 
+(4000p) (1080p ) 
+
+codec = C0dificatore DECodificatore = compressione 
+
+video:
+avi / mpeg / mkv / flv / mp4
+
+formato video = formato codec video + formato codec audio
+<!--
+posso avere un'estensione che mi fa da contenitore, quando in realtà non è il formato video ma quello del codec, insomma è stato compresso in AVI piuttosto che MP4 ma non significa che anche il video abbia quel formato.
+-->
+
+Video e Web
+
+formati supportati da HTML5: mp4 / OGG / WEBM
+
+1) Video da visulizzare (locale / video sul nostro server ) 
+- piccoli video (<12mb);
+-
+2) Video in streaming (sul server streaming)
+- video grandi dimensioni(>12)

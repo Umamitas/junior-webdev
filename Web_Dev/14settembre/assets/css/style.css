@@ -1,0 +1,101 @@
+   /*CSS INCORPORATO = utilizziamo il tag STYLE dentro HEAD*/
+
+        /* = inizio commento multirighe
+
+                    Sintassi base CSS
+        SELETTORE {
+                proprietà:valore;
+                proprietà2:valore;
+                proprietàN:valore;
+        }
+
+        ESEMPIO SELETTORI: TAG HTML - riporto il tag come selettore primo di > e di <(parentesi angolari)
+
+        fine commento multirighe = */
+
+        body {
+            background-color: burlywood;
+            /*proprietà colore di sfondo*/
+            color: antiquewhite;
+            /* proprietà colore del testo*/
+        }
+
+        /* 
+        pseudo classi del CSS
+
+        ovvero dei modi per far riferimento a diversi stati di un TAG / ELEMENTO HTML
+
+        esempio sul tag A (collegamento ipertestuale)
+
+        RELATIVAMENTE AI LINK  (A)
+        D O B B I A M O utilizzare una specifica sequenza per l'assegnazione delle pseudoclassi al link
+        la sequenza specifica viene anche AMORE-ODIO (LOVE-HATE)
+        */
+
+        a:link {
+            /*stato del link da visitare*/
+            color: white;
+        }
+
+        a:visited {
+            /*stato del link */
+            color: grey;
+        }
+
+        a:hover {
+            /*stato del puntatore*/
+            color: green;
+            background-color: black;
+        }
+
+        a:active {
+            /* stato di quando l'utente clicca e tiene cliccato sull'elemento*/
+            color: yellow;
+        }
+
+        header {
+            background-color: grey;
+            color: azure;
+            /*border disegna un bordo attorno l'elemento
+            sintassi= border:spessore stile colore
+
+            stile = solid | dotted | dashed
+
+            potremmo anchge scegliere di definire uno specifico bordo: 
+            border-top  bordo superiore
+            border-bot  bordo inferiore
+            border-right bordo destro
+            border-left  bordo sinistro
+            
+            */
+            border-right: 5px solid blue;
+            border-left: 5px solid red;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+        }
+
+        /*piuttosto che riscrivere le stesse proprietà posso semplicemente aggiungere h2 con una VIRGOLA aka è un modo per assegnare più selettori le medesime proprietà*/
+        h1,
+        h2 {
+            text-align: center;
+            /*gestisce l'allineamento del contenuto/testo */
+            font-size: 24px;
+        }
+            /*16 px è tendenzialmente la dimensione dei caratteri standard*/
+            /*
+        }
+        h2{
+            text-align: center;
+            font-size: 32px;
+        }*/
+            article {
+                text-align: justify;
+                border: 10px dotted grey;
+            }
+
+            span {
+                background-color: black;
+            }

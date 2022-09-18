@@ -1,0 +1,57 @@
+header{
+    text-align: center;
+    background-color: rgb(226, 216, 238);
+    border-bottom: 5px solid blue ;
+} /* CURRICULUM VITAE - MARIO ROSSI*/
+
+span {
+    color: darkblue;
+} /* PARTI DEL TESTO BLU*/
+
+h3 {
+    font-size: 28px;
+    text-align: center;
+} /* TITOLI DELLE SEZIONI AL CENTRO*/
+p{
+    border: 10px solid white;
+} /* SERVE AD ALLONTANARE DALLA LINEA LATERALE LA SEZIONE FORMAZIONE*/
+div {
+    text-align: right;
+} /* FOTO */
+main{
+    border-left: 1px solid black;
+} /* BORDO LATERALE SINISTRO */
+blockquote{
+    text-align: right;
+} /*CITAZIONE */
+section{
+    background-color: rgb(238, 206, 247);
+    border: 10px solid rgb(238, 206, 247);
+}/* COMPETENZE TECNICHE */
+article {
+    background-color: lemonchiffon;
+    border: 10px solid lemonchiffon;
+} /* CONOSCENZE OPERATIVE */
+footer{
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+} /* CONTATTI + COPYRIGHT*/
+a:link {
+    color: white;
+} /* MOSTRA LINK BIANCHI E VISIBILI SU SFONDO BLU */
+a:visited {
+    color: rgb(196, 0, 0);
+} /* UNA VOLTA VISITATI DIVENTA ROSSO */
+a:hover {
+    color: orchid;
+    background-color: aquamarine;
+} /* EVIDENZIA QUANDO PASSA IL CURSORE */
+a:active {
+    color: yellow;
+} /* MENTRE CLICCA E' GIALLO */
+aside{
+    border: 15px solid white;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+} /* BORDI TRATTEGGIATI */
